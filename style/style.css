@@ -3,6 +3,8 @@ body{
     margin: 0px;
     padding: 0px;
     font-family: helvetica;
+    max-width: 100vw;
+    overflow-x: hidden;
 } 
 
 /* canvas{ 
@@ -26,14 +28,18 @@ body{
 .seccion{
     height: 100vh;
     width: 100vw;
-    position: absolute;
+    /* position: absolute; */
+}
+
+#presentacion{
+    padding-top: 2%;
 }
 
 #contenedor-foto{
     height: 150px;
     aspect-ratio: 1/1;
     margin: auto;
-    margin-top: 20px;
+    /* margin-top: 20px; */
     border-radius: 50%;
     overflow: hidden;
     background-color:black;
@@ -115,3 +121,41 @@ body{
     }
 }
 
+
+/*Experiencia*/
+#experiencia h2{
+    text-align: center;
+    color:white;
+}
+
+#trabajos-contenedor{
+    height: 90%;
+    width: 90%;
+    margin:auto;
+}
+
+.trabajo{
+    width: 55%;
+    display: block;
+    margin-top: 10px;
+    color:white;
+    /* background-color:white; */
+    /* backdrop-filter: blur(10px); */
+}
+
+.trabajo p {
+    text-align: left;
+    font-size: .8rem;
+}
+
+.float-lft{
+    float: left;
+}
+
+.float-rg{
+    float: right;
+}
+
+.skills li{
+    list-style-type: square;
+}
